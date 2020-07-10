@@ -99,7 +99,7 @@ const renderSVG = (stats, options) => {
     stars: createTextNode("⭐️", "Total Stars", totalStars, lheight),
     commits: createTextNode("🕗", "Total Commits", totalCommits, lheight),
     prs: createTextNode("🔀", "Total PRs", totalPRs, lheight),
-    issues: createTextNode("⚠️", "Total Issues", totalIssues, lheight),
+    issues: createTextNode("📌", "Total Issues", totalIssues, lheight),
     contribs: createTextNode("📕", "Contributed to", contributedTo, lheight),
   };
 

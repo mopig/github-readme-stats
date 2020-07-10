@@ -96,10 +96,10 @@ const renderSVG = (stats, options) => {
   const lheight = line_height || 25;
 
   const STAT_MAP = {
-    stars: createTextNode("★", "Total Stars", totalStars, lheight),
+    stars: createTextNode("⭐️", "Total Stars", totalStars, lheight),
     commits: createTextNode("🕗", "Total Commits", totalCommits, lheight),
     prs: createTextNode("🔀", "Total PRs", totalPRs, lheight),
-    issues: createTextNode("ⓘ", "Total Issues", totalIssues, lheight),
+    issues: createTextNode("⚠️", "Total Issues", totalIssues, lheight),
     contribs: createTextNode("📕", "Contributed to", contributedTo, lheight),
   };
 
